@@ -1,5 +1,5 @@
 import React from 'react'
-import { Sedgwick_Ave } from '@next/font/google';
+import { Sedgwick_Ave } from 'next/font/google';
 import Link from 'next/link';
 
 const sedgwick = Sedgwick_Ave({ weight: '400', subsets: ['latin'] });

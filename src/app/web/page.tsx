@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Menu from '@/app/menu';
 import Footer from '@/app/footer';
-import '../globals.css';
+import '../../globals.css';
 
 const Page = () => {
   const [url, setUrl] = useState('');

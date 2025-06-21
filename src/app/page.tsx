@@ -3,13 +3,14 @@
 import Image from "next/image";
 import Menu from "./menu";
 import Play from "./player";
-import { Alfa_Slab_One } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import Link from "next/link";
 import Box from "./box";
 import How from "./how";
 import Footer from "./footer";
+import './globals.css';
 
-const alfa = Alfa_Slab_One({
+const inter = Inter({
   weight: '400',
   subsets: ['latin'],
 });
@@ -23,10 +24,10 @@ export default function Home() {
 
       <section className=" bg-gradient-to-r from-gray-800 via-black to-gray-900 py-20">
         <div className="flex flex-col items-center justify-center gap-3 mb-20">
-          <div className={`text-7xl scrapo gradient-shadow-text ${alfa.className} typingeffect`}>
+          <div className={`text-7xl scrapo gradient-shadow-text ${inter.className} typingeffect`}>
             On demand web scraping
           </div>
-          <div className={`text-7xl scrapo gradient-shadow-text ${alfa.className} typingeffect`}>
+          <div className={`text-7xl scrapo gradient-shadow-text ${inter.className} typingeffect`}>
             for your business
           </div>
           <div className="text-2xl">All inclusive service, any data.</div>

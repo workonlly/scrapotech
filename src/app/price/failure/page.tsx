@@ -4,7 +4,7 @@ import React from 'react';
 import { useSearchParams } from 'next/navigation';
 import Menu from '@/app/menu';
 import Footer from '@/app/footer';
-import '../../../globals.css';
+import '../../globals.css';
 
 const PaymentFailurePage = () => {
   const searchParams = useSearchParams();

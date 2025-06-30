@@ -48,7 +48,7 @@ const Page = () => {
         formData.append('file', file);
       }
 
-      const res = await fetch('/api/scrape', {
+      const res = await fetch('https://scrapotechbackend.onrender.com/scrape', {
         method: 'POST',
         body: formData,
       });
